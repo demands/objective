@@ -2,7 +2,10 @@
   "name": "objective",
   "description": "stuff",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "bluebird": "^2.3.4",
+    "lodash": "^2.4.1"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/jshint .",
     "checkStyle": "./node_modules/.bin/jscs .",
@@ -18,6 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^1.18.2",
+    "chai": "^1.9.1",
     "istanbul": "^0.2.7",
     "jshint": "^2.5.0",
     "jscs": "^1.4.5"
