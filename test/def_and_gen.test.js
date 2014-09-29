@@ -9,7 +9,8 @@ describe('def and gen', function() {
       simpleProperty: 1,
       logicProperty: function() { return 2; },
       asyncProperty: o.async(function(cb) { cb(null, 'hello') }),
-      'nested.property': 'world'
+      'deeply.nested.property': 'world',
+      'deeply.nested.otherProperty': 'yo'
     });
   });
 
@@ -37,7 +38,8 @@ describe('def and gen', function() {
     });
 
     it('should have nested properties', function() {
-      expect(instance.nested).to.have.property('property', 'world');
+      expect(instance.deeply.nested).to.have.property('property', 'world');
+      expect(instance.deeply.nested).to.have.property('otherProperty', 'yo');
     });
   });
 
@@ -64,7 +66,8 @@ describe('def and gen', function() {
     });
 
     it('should have nested properties', function() {
-      expect(instance.nested).to.have.property('property', 'world');
+      expect(instance.deeply.nested).to.have.property('property', 'world');
+      expect(instance.deeply.nested).to.have.property('otherProperty', 'yo');
     });
   });
 
