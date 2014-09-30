@@ -1,5 +1,4 @@
 --reporter spec
 --require test/support/common
+lib/**/test.js
 test
-lib/*/test.js
-lib/*/*/test.js
