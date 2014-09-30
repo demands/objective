@@ -10,8 +10,8 @@
     "lint": "jshint .",
     "checkStyle": "jscs .",
     "pretest": "npm run-script lint && npm run-script checkStyle",
-    "test": "istanbul cover _mocha test",
-    "posttest": "istanbul check-coverage && rm -rf coverage",
+    "test": "istanbul cover -x lib/**/test.js _mocha test lib/**/test.js",
+    "posttest": "istanbul check-coverage --statements 100 --functions 100 --branches 100 --lines 100 && rm -rf coverage",
     "prepublish": "npm test && npm prune"
   },
   "publishConfig": {
