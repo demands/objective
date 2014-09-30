@@ -1,4 +1,3 @@
-var expect = require('chai').expect;
 var o = require('..');
 
 describe('def and gen', function() {

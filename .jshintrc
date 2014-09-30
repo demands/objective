@@ -28,10 +28,15 @@
 , "predef":
   [ "describe"
   , "it"
+  , "xdescribe"
+  , "xit"
+  , "given"
   , "before"
   , "beforeEach"
   , "after"
   , "afterEach"
+  , "expect"
+  , "GLOBAL"
   ]
 , "smarttabs": true
 , "strict": false
