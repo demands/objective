@@ -1,30 +1,32 @@
-# WIP test double framework for building up mock objects
+#  OBJECTIVE
 
-Things that should exist:
+[![build status](https://secure.travis-ci.org/demands/objective.png)](http://travis-ci.org/demands/objective)
+
+Your go-to node module for creating [test fixtures or mock objects][mocks]!
+Also great for all sorts of complex object instantiation!
+
+[mocks]: http://en.wikipedia.org/wiki/Mock_object "Everything you wanted to
+know about mock objects"
+
+## TODOs
+
+### Things that should exist:
 
 - clean, easy, obvious syntax
   (see https://gist.github.com/justinabrahms/81645db1b0262aa36b9b)
 
-Ability to:
+### Ability to:
 
-- build up a simple mock object
-- overwrite parameters
-  - even nested ones, even with arrays
-- have the mock object have a certain prototype (maybe even run a scontructor function?)
-- automatically have that mock object be persisted in the database
+- overwrite array parameters
 - make use of other factories in your factory
-- async parameters, and the ability to conditionally use them (if you want your object to be instanciated synchronously)
-- options that your object creation function can use to do what they do
+- set options that your object creation function can use
+- have the mock object have a certain prototype (and even run a constructor
+  function)
+- optionally, automatically have that mock object be persisted in the database
 
-[![build status](https://secure.travis-ci.org//objective.png)](http://travis-ci.org//objective)
 
 ## Installation
 
 ```
 npm install objective --save
 ```
-
-## Usage
-
-## Credits
-[](https://github.com//)
