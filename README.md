@@ -2,11 +2,9 @@
 
 [![build status](https://secure.travis-ci.org/demands/objective.png)](http://travis-ci.org/demands/objective)
 
-Your go-to node module for creating [test fixtures or mock objects][mocks]!
+Your go-to node module for creating [test fixtures or mock
+objects](http://en.wikipedia.org/wiki/Mock_object "Everything you wanted to know about mock objects")!
 Also great for all sorts of complex object instantiation!
-
-[mocks]: http://en.wikipedia.org/wiki/Mock_object "Everything you wanted to
-know about mock objects"
 
 ## TODOs
 
