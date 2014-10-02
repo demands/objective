@@ -2,3 +2,4 @@
 --require test/support/common
 lib/**/test.js
 test
+test/**/*.test.js
